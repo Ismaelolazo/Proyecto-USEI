@@ -1,0 +1,156 @@
+<template>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h1>Contacto de la Unidad</h1>
+        <p>¡Contáctanos si tienes alguna pregunta o sugerencia!</p>
+        <form>
+          <div class="form-group">
+            <label for="name">Nombre:</label>
+            <input type="text" class="form-control" id="name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" class="form-control" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="message">Mensaje:</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <h1>Redes Sociales</h1>
+        <a href="#" class="btn btn-primary"
+          ><i class="fab fa-facebook-f"></i> Facebook</a
+        >
+        <a href="#" class="btn btn-danger"
+          ><i class="fab fa-instagram"></i> Instagram</a
+        >
+        <a href="#" class="btn btn-primary"
+          ><i class="fab fa-tiktok"></i> TikTok</a
+        >
+        <h1>WhatsApp</h1>
+        <p>Chatea con nosotros a través de WhatsApp:</p>
+        <a href="https://wa.me/numero_de_telefono" class="btn btn-success"
+          ><i class="fab fa-whatsapp"></i> WhatsApp</a
+        >
+        <h1>Ubicación</h1>
+        <p>Encuéntranos en el mapa:</p>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1762.4648207633464!2d-77.04284656668506!3d-12.046927205023584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7a1b6b1ac77%3A0x2873d3d3fb95426f!2sUniversidad%20de%20San%20Marcos%20-%20Ciudad%20Universitaria!5e0!3m2!1sen!2spe!4v1624580740069!5m2!1sen!2spe"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+  export default {
+    name: 'Contacto',
+  };
+</script>
+
+<style>
+  /* Estilos para la página de contacto */
+
+  /* Contenedor principal */
+  #contacto {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Título principal */
+  #contacto h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  /* Subtítulos */
+  #contacto h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  /* Campos del formulario */
+  #contacto form input[type='text'],
+  #contacto form input[type='email'],
+  #contacto form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+
+  /* Botón de enviar */
+  #contacto form button[type='submit'] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  /* Iconos de redes sociales */
+  #contacto .redes-sociales i {
+    font-size: 36px;
+    color: #007bff;
+    margin-right: 20px;
+  }
+
+  /* Link de WhatsApp */
+  #contacto .whatsapp a {
+    display: inline-block;
+    background-color: #25d366;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+
+  /* Mapa */
+  #contacto .mapa {
+    margin-top: 40px;
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  /* Estilos para el formulario de contacto */
+  #contacto .formulario-contacto {
+    margin-top: 40px;
+  }
+
+  /* Mensaje de confirmación */
+  #contacto .mensaje-confirmacion {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    color: #155724;
+  }
+</style>
