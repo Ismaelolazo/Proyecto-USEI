@@ -1,54 +1,62 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Mi página web</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<header>
-		<nav>
-			<ul>
-				<li><a href="#inicio">Inicio</a></li>
-				<li><a href="#servicios">Servicios</a></li>
-				<li><a href="#contacto">Contacto</a></li>
-			</ul>
-		</nav>
-	</header>
+  <head>
+    <title>Mi página web informativa</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li
+            v-for="(tab, index) in tabs"
+            :key="index"
+            :class="{ active: currentTab === index }"
+          >
+            <a href="#" @click="currentTab = index">{{ tab }}</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-	<main>
-		<section id="inicio">
-			<h1>Bienvenidos a mi página web</h1>
-			<p>Este es un ejemplo de página web con tres pestañas.</p>
-		</section>
+    <main>
+      <section
+        v-for="(tabContent, index) in tabContents"
+        :key="index"
+        v-show="currentTab === index"
+      >
+        <h1>{{ tabContent.title }}</h1>
+        <p>{{ tabContent.content }}</p>
+      </section>
+    </main>
 
-		<section id="servicios">
-			<h2>Servicios</h2>
-			<ul>
-				<li>Diseño web</li>
-				<li>Desarrollo de aplicaciones móviles</li>
-				<li>Marketing digital</li>
-			</ul>
-		</section>
+    <footer>
+      <p>© 2023. Todos los derechos reservados.</p>
+    </footer>
 
-		<section id="contacto">
-			<h2>Contacto</h2>
-			<form>
-				<label for="nombre">Nombre:</label>
-				<input type="text" id="nombre" name="nombre">
-
-				<label for="email">Email:</label>
-				<input type="email" id="email" name="email">
-
-				<label for="mensaje">Mensaje:</label>
-				<textarea id="mensaje" name="mensaje"></textarea>
-
-				<input type="submit" value="Enviar">
-			</form>
-		</section>
-	</main>
-
-	<footer>
-		<p>Copyright © 2023</p>
-	</footer>
-</body>
+    <script>
+      new Vue({
+        el: 'body',
+        data: {
+          currentTab: 0,
+          tabs: ['Pestaña 1', 'Pestaña 2', 'Pestaña 3'],
+          tabContents: [
+            {
+              title: 'Título de la pestaña 1',
+              content: 'Contenido de la pestaña 1.',
+            },
+            {
+              title: 'Título de la pestaña 2',
+              content: 'Contenido de la pestaña 2.',
+            },
+            {
+              title: 'Título de la pestaña 3',
+              content: 'Contenido de la pestaña 3.',
+            },
+          ],
+        },
+      });
+    </script>
+  </body>
 </html>
