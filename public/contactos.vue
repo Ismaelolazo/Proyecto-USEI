@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-md-6">
         <h1>Contacto de la Unidad</h1>
-        <p>¡Contáctanos si tienes alguna pregunta o sugerencia!</p>
+        <p>¡Contáctanos si tieenes alguna pregunta o sugerencia!</p>
         <form>
           <div class="form-group">
             <label for="name">Nombre:</label>
