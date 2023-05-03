@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
+import UiComponents from '@/components/ui-components/AllComponents.vue';
 import MainBanner from '@/components/shared/lp-banner/BannerComingSoon.vue';
 </script>
 
@@ -8,5 +9,7 @@ import MainBanner from '@/components/shared/lp-banner/BannerComingSoon.vue';
     <!-------Banner-------->
     <MainBanner />
     <!--------------------->
+    <!-------UI Components-------->
+    <UiComponents />
   </div>
 </template>

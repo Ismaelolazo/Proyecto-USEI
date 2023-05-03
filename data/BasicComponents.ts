@@ -29,40 +29,49 @@ const UiTable =[
 
     },
     {
-      name: "Ice cream sandwich",
-      calories: 237,
+      name: "Banco Union",
+      calories: '12/05',
+      hora: '17:00',
     },
     {
-      name: "Eclair",
-      calories: 262,
+      name: "Banco Union",
+      calories: '12/05',
+      hora: '17:00',
     },
     {
-      name: "Cupcake",
-      calories: 305,
+      name: "Banco Union",
+      calories: '12/05',
+      hora: '17:00',
     },
     {
-      name: "Gingerbread",
-      calories: 356,
+      name: "Banco Union",
+      calories: '12/05',
+      hora: '17:00',
     },
     {
-      name: "Jelly bean",
-      calories: 375,
+      name: "Banco Union",
+      calories: '12/05',
+      hora: '17:00',
     },
     {
-      name: "Lollipop",
-      calories: 392,
+      name: "Banco Union",
+      calories: '12/05',
+      hora: '17:00',
     },
     {
-      name: "Honeycomb",
-      calories: 408,
+      name: "Banco Union",
+      calories: '12/05',
+      hora: '17:00',
     },
     {
-      name: "Donut",
-      calories: 452,
+      name: "Banco Union",
+      calories: '12/05',
+      hora: '17:00',
     },
     {
-      name: "KitKat",
-      calories: 518,
+      name: "Banco Union",
+      calories: '12/05',
+      hora: '17:00',
     },
 ];
 
