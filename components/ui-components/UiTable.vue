@@ -12,10 +12,9 @@ import {UiTable} from '@/data/BasicComponents';
         <v-row justify="center">
           <v-col cols="12" sm="10" md="9" lg="7">
             <div class="text-center">
-              <h2 class="ui-title font-weight-bold">Table</h2>
+              <h2 class="ui-title font-weight-bold">Horarios</h2>
               <p class="text-muted">
-                Here you can check Demos we created based on WrapKit. Its quite
-                easy to Create your own dream website & dashboard in No-time.
+                Te mostramos la fecha y hora de las proximas presentaciones en la feria del empleo
               </p>
             </div>
           </v-col>
@@ -35,14 +34,16 @@ import {UiTable} from '@/data/BasicComponents';
                 <v-table>
                   <thead>
                     <tr>
-                      <th class="text-left text-muted">Name</th>
-                      <th class="text-left text-muted">Calories</th>
+                      <th class="text-left text-muted">Instituciones</th>
+                      <th class="text-left text-muted">Fecha</th>
+                      <th class="text-left text-muted">Hora</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr v-for="item in UiTable" :key="item.name">
                       <td>{{ item.name }}</td>
                       <td>{{ item.calories }}</td>
+                      <td>{{ item.hora }}</td>
                     </tr>
                   </tbody>
                 </v-table>

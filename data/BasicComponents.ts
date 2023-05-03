@@ -23,8 +23,10 @@ const UiCard =[
 /*--UI Table--*/
 const UiTable =[
     {
-      name: "Frozen Yogurt",
-      calories: 159,
+      name: "Banco Union",
+      calories: '12/05',
+      hora: '17:00',
+
     },
     {
       name: "Ice cream sandwich",

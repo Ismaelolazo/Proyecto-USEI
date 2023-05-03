@@ -9,7 +9,8 @@ import CommingSoon from '@/components/shared/coming-soon/ComingSoon.vue';
   <div>
     <!-------Banner-------->
     <MainBanner />
-    
+    <!-----UI Table------->
+    <UiTable />
     <!-------UI Components-------->
     <UiComponents />
   </div>
