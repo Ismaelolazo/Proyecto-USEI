@@ -14,15 +14,12 @@
         >
           <div class="text-center">
             <h1 class="banner-title font-weight-bold text-white">
-              NuxtJs UI Kit Free
+              Cronograma de actividades
             </h1>
             <h4 class="banner-subtitle mr-0 text-white font-weight-regular">
-              Built with Nuxt Js and based on Vuetify js Free UI Kit
+              Acá esta el cronograma de todas las actividades en la feria de empleo
             </h4>
             <div class="mt-8">
-              <v-btn to="/coming-soon" size="large" class="bg-success text-white" flat>
-                Upgrade to Pro
-              </v-btn>
             </div>
           </div>
         </v-col>
