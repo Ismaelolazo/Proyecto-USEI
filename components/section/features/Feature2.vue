@@ -13,10 +13,10 @@ import {feature2} from '@/data/CustomComponents';
           <v-col cols="12" md="10" lg="7">
             <div class="text-center">
               <h2 class="section-title font-weight-medium">
-                Empresas
+                Instituciones
               </h2>
               <p class="text-muted">
-                Varias empresas te ofrecen la oportunidad de ingresar al campo laboral de forma simple y rápida 
+                Varias instituciones te ofrecen la oportunidad de ingresar al campo laboral de forma simple y rápida 
               </p>
             </div>
           </v-col>
@@ -67,7 +67,7 @@ import {feature2} from '@/data/CustomComponents';
                     block
                     class="linking bg-info feature2-action-btn mt-sm-0 mt-n5"
                   >
-                    Let's Talk <i class="mdi mdi-arrow-right"></i>
+                    Saber más <i class="mdi mdi-arrow-right"></i>
                   </v-btn>
                 </v-col>
               </v-row>

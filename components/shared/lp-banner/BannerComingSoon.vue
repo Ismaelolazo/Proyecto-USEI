@@ -14,11 +14,10 @@
         >
           <div class="text-center">
             <h1 class="banner-title font-weight-bold text-white">
-              Pro Version coming soon
+              Listado de Instituciones
             </h1>
             <h4 class="banner-subtitle mr-0 text-white font-weight-regular">
-              Pro version will coming soon, with tons of ready to use features.
-              stay tuned.
+              Te presentamos un acercamiento a las instituciones que participan de la feria 
             </h4>
           </div>
         </v-col>

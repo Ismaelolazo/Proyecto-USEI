@@ -9,6 +9,6 @@ import AllCustomComponents from '@/components/section/AllCustomComponents.vue';
     <!-------Banner-------->
     <MainBanner />
     <!-------All Components-------->
-    <AllCustomComponents/>
+    <AllCustomComponents />
   </div>
 </template>
