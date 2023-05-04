@@ -1,14 +1,14 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import MainBanner from '@/components/section/banner/MainBanner.vue';
-import AllCustomComponents from '@/components/section/AllCustomComponents.vue';
+import InstiBanner from '@/components/section/banner/InstiBanner.vue';
+import AllC2 from '@/components/section/AllC2.vue';
 </script>
 
 <template>
   <div>
     <!-------Banner-------->
-    <MainBanner />
+    <InstiBanner />
     <!-------All Components-------->
-    <AllCustomComponents />
+    <AllC2 />
   </div>
 </template>
