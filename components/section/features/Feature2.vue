@@ -63,12 +63,14 @@ import {feature2} from '@/data/CustomComponents';
                   </v-card-text>
                 </v-col>
                 <v-col cols="12" sm="4">
-                  <v-btn
+                  <NuxtLink to="/pages/Pag1">
+                  <v-btn 
                     block
                     class="linking bg-info feature2-action-btn mt-sm-0 mt-n5"
                   >
                     Saber más <i class="mdi mdi-arrow-right"></i>
                   </v-btn>
+                </NuxtLink>
                 </v-col>
               </v-row>
             </v-card>
