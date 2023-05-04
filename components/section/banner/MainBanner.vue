@@ -21,7 +21,7 @@
                 size="large"
                 flat
               >
-                 <NuxtLink to="https://lpz.ucb.edu.bo/feria-de-empleo-ucb/" target="_blank" class="text-decoration-none  text-white">
+                 <NuxtLink to="https://lpz.ucb.edu.bo/feria-de-empleo-ucb" target="_blank" class="text-decoration-none  text-white">
                   USEI
                  </NuxtLink>
               </v-btn>
