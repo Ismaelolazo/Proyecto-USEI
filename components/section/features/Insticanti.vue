@@ -63,7 +63,7 @@ import {feature2} from '@/data/CustomComponents';
                   </v-card-text>
                 </v-col>
                 <v-col cols="12" sm="4">
-                  <NuxtLink to="/basic-components">
+                  <NuxtLink to="/Pag1">
                   <v-btn 
                     block
                     class="linking bg-info feature2-action-btn mt-sm-0 mt-n5"
