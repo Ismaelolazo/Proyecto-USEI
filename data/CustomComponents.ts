@@ -25,14 +25,14 @@ const headerMenu = [
 /*--Feature 1--*/
 const feature1 =[
   {
-    title: "Instant Solutions",
+    title: "Buenos Horarios",
     icon: "mdi mdi-star",
-    desc: "You can relay on our amazing features list and also our customer services will be great experience. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique pellentesque ipsum.",
+    desc: "Invierte en nuevos proyectos",
   },
   {
-    title: "Powerful Techniques",
+    title: "Maestros",
     icon: "mdi mdi-check-circle",
-    desc: "You can relay on our amazing features list and also our customer services will be great experience. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique pellentesque ipsum.",
+    desc: "Aprende sobre el campo laboral de primera mano",
   },
 ];
 

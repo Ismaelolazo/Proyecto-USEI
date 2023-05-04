@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import Insticanti from './features/Insticanti.vue';
+import Feature1 from './features/Feature1.vue';
 </script>
 
 <template>
     <!----Feature 2----->
-    <Insticanti/>
+    <Feature1/>
 
 </template>

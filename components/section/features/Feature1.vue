@@ -13,15 +13,13 @@ import {feature1} from '@/data/CustomComponents'
           <v-col cols="12" md="10" lg="7">
             <div class="text-center">
               <v-chip size="small" class="bg-error" text-color="white">
-                Feature 1
+                Caracteristicas
               </v-chip>
               <h2 class="section-title font-weight-medium">
-                Awesome with Extra Ordinary Flexibility
+                Flexibles
               </h2>
               <p class="text-muted">
-                You can relay on our amazing features list and also our customer
-                services will be great experience for you without doubt and in
-                no-time
+                Puedes aprovechar tu tiempo en nuestra area Laboral de la forma mas eficiente
               </p>
             </div>
           </v-col>
@@ -42,12 +40,6 @@ import {feature1} from '@/data/CustomComponents'
                 </div>
                 <h5 class="font-weight-medium font-18">{{ card.title }}</h5>
                 <p class="my-5 text-muted pr-sm-10">{{ card.desc }}</p>
-                <a
-                  href="#"
-                  class="text-themecolor linking text-decoration-none d-flex align-center"
-                >
-                  Explore More <i class="mdi mdi-arrow-right"></i>
-                </a>
               </div>
             </v-card>
           </v-col>
