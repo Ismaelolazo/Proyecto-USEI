@@ -49,7 +49,7 @@ import { Blog } from "@/data/CustomComponents";
                   </p>
                   <NuxtLink to="/basic-components">
                   <div class="text-themecolor linking d-flex align-center">
-                    Learn More <i class="mdi mdi-arrow-right"></i>
+                    Saber Más <i class="mdi mdi-arrow-right"></i>
                   </div></NuxtLink>
                 </div>
               </a>
