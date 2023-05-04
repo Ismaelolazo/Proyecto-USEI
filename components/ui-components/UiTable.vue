@@ -37,6 +37,8 @@ import {UiTable} from '@/data/BasicComponents';
                       <th class="text-left text-muted">Instituciones</th>
                       <th class="text-left text-muted">Fecha</th>
                       <th class="text-left text-muted">Hora</th>
+                      <th class="text-left text-muted">Link</th>
+                      <th class="text-left text-muted">Plazas</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -44,6 +46,8 @@ import {UiTable} from '@/data/BasicComponents';
                       <td>{{ item.name }}</td>
                       <td>{{ item.calories }}</td>
                       <td>{{ item.hora }}</td>
+                      <td>{{ item.registro }}</td>
+                      <td>{{ item.plazas }}</td>
                     </tr>
                   </tbody>
                 </v-table>
