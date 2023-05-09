@@ -18,8 +18,7 @@ const show3 = ref(true);
             <div class="text-center">
               <h2 class="ui-title font-weight-bold">Form</h2>
               <p class="text-muted">
-                Here you can check Demos we created based on WrapKit. Its quite
-                easy to Create your own dream website & dashboard in No-time.
+                Datos para compartir el link de la reunion
               </p>
             </div>
           </v-col>
@@ -39,7 +38,13 @@ const show3 = ref(true);
                 <v-text-field
                 v-model="first"
                 color="primary"
-                label="User Name"
+                label="Nombre"
+                variant="underlined"
+              ></v-text-field>
+              <v-text-field
+                v-model="first"
+                color="primary"
+                label="Apellido"
                 variant="underlined"
               ></v-text-field>
 
@@ -47,29 +52,16 @@ const show3 = ref(true);
                 v-model="last"
                 color="primary"
                 type="email"
-                label="Email"
+                label="Correo Electronico"
                 variant="underlined"
               ></v-text-field>
-
               <v-text-field
-                    color="primary"
-                     variant="underlined"
-                    :type="show2 ? 'text' : 'password'"
-                    label="Password"
-                    :append-inner-icon="show2 ? 'mdi-eye' : 'mdi-eye-off'"
-                    @click:append-inner="show2 = !show2"
-                >
-                </v-text-field>
-
-                <v-text-field
-                    color="primary"
-                     variant="underlined"
-                    :type="show3 ? 'text' : 'password'"
-                    label="Confirm Password"
-                    :append-inner-icon="show3 ? 'mdi-eye' : 'mdi-eye-off'"
-                    @click:append-inner="show3 = !show3"
-                >
-                </v-text-field>
+                v-model="last"
+                color="primary"
+                type="Numero"
+                label="Celular"
+                variant="underlined"
+              ></v-text-field>
                 <v-checkbox
                   v-model="checkbox2"
                   class="ml-n2 mt-n2 "
@@ -79,6 +71,7 @@ const show3 = ref(true);
                 ></v-checkbox>
                 <div class="mt-1">
                   <v-btn class="bg-success mr-3 text-white" elevation="0" >Save</v-btn>
+                  
                   <v-btn class="bg-dark" elevation="0" dark>Cancel</v-btn>
                 </div>
               </v-card-text>

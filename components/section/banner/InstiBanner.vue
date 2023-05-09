@@ -1,5 +1,5 @@
 <template>
-  <div class="banner-wrapper">
+  <div class="banner-wrapper bg-light-blue">
     <v-container>
       <!-- -----------------------------------------------
             Start Banner
@@ -21,17 +21,17 @@
                 flat
               >
                  <NuxtLink to="https://github.com/Ismaelolazo/Proyecto-USEI" target="_blank" class="text-decoration-none  text-white">
-                  Informacion
+                  Informaciones
                  </NuxtLink>
               </v-btn>
               <v-btn
                 size="large"
-                to="/coming-soon"
+                to="/abm"
                 class="btn-custom-md d-sm-flex d-block"
                 variant="outlined"
                 color="white"
                 flat
-              >
+              ><NuxtLink to="/abm" target="_blank" class="text-decoration-none  text-white"></NuxtLink>
                 Registrarse
               </v-btn>
             </div>

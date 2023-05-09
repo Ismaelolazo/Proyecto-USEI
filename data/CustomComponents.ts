@@ -34,10 +34,36 @@ const feature1 =[
     icon: "mdi mdi-check-circle",
     desc: "Aprende sobre el campo laboral de primera mano",
   },
+  {
+    title: "Buenos Horarios",
+    icon: "mdi mdi-star",
+    desc: "Invierte en nuevos proyectos",
+  },
+  {
+    title: "Maestros",
+    icon: "mdi mdi-check-circle",
+    desc: "Aprende sobre el campo laboral de primera mano",
+  },
 ];
 
 /*--Feature 2--*/
 const feature2 =[
+  {
+    title: "Make your website in no-time with us.",
+    img: "img1.jpg",
+  },
+  {
+    title: "Make your website in no-time with us.",
+    img: "img2.jpg",
+  },
+  {
+    title: "Make your website in no-time with us.",
+    img: "img3.jpg",
+  },
+  {
+    title: "Make your website in no-time with us.",
+    img: "img4.jpg",
+  },
   {
     title: "Make your website in no-time with us.",
     img: "img1.jpg",

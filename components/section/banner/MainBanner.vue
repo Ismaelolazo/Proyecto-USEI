@@ -1,5 +1,5 @@
 <template>
-  <div class="banner-wrapper">
+  <div class="banner-wrapper bg-blue">
     <v-container>
       <!-- -----------------------------------------------
             Start Banner

@@ -62,26 +62,36 @@ const UiTable =[
       name: "Banco Union",
       calories: '12/05',
       hora: '17:00',
+      registro: 'Zoom:httpsblabla',
+      plazas: 5,
     },
     {
       name: "Banco Union",
       calories: '12/05',
       hora: '17:00',
+      registro: 'Zoom:httpsblabla',
+      plazas: 5,
     },
     {
       name: "Banco Union",
       calories: '12/05',
       hora: '17:00',
+      registro: 'Zoom:httpsblabla',
+      plazas: 5,
     },
     {
       name: "Banco Union",
       calories: '12/05',
       hora: '17:00',
+      registro: 'Zoom:httpsblabla',
+      plazas: 5,
     },
     {
       name: "Banco Union",
       calories: '12/05',
       hora: '17:00',
+      registro: 'Zoom:httpsblabla',
+      plazas: 5,
     },
 ];
 
