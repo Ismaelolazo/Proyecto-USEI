@@ -2,3 +2,7 @@
 Ismael Rivera Cronograma
 Joaquin Mancilla Instituciones
 Andy Calle Contactos
+
+Listado NPM:
+npm install
+npm install vuefire firebase
