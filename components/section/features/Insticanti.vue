@@ -15,11 +15,14 @@ import {feature2} from '@/data/CustomComponents';
               <h2 class="section-title font-weight-medium">
                 Instituciones
               </h2>
+              
               <p class="text-muted">
                 Varias instituciones te ofrecen la oportunidad de ingresar al campo laboral de forma simple y rápida 
               </p>
             </div>
+            
           </v-col>
+          
         </v-row>
 
         <!-- -----------------------------------------------

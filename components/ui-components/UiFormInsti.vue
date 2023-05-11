@@ -16,9 +16,9 @@ const show3 = ref(true);
         <v-row justify="center">
           <v-col cols="12" sm="10" md="9" lg="7">
             <div class="text-center">
-              <h2 class="ui-title font-weight-bold">Formulario de inscripcion</h2>
+              <h2 class="ui-title font-weight-bold">Formulario de registro</h2>
               <p class="text-muted">
-                Datos para poder compartir el link de la reunion contigo
+                Datos para poder compartir tu pagina
               </p>
             </div>
           </v-col>
@@ -36,15 +36,15 @@ const show3 = ref(true);
             <v-card class="card-shadow">
               <v-card-text>
                 <v-text-field
-                v-model="first"
+                v-model="Nombre_Institucion"
                 color="primary"
-                label="Nombre"
+                label="Nombre institucion"
                 variant="underlined"
               ></v-text-field>
               <v-text-field
                 v-model="first"
                 color="primary"
-                label="Apellido"
+                label="Lema"
                 variant="underlined"
               ></v-text-field>
 
@@ -62,6 +62,14 @@ const show3 = ref(true);
                 label="Celular"
                 variant="underlined"
               ></v-text-field>
+              <v-textarea
+                v-model="last"
+                color="primary"
+                type="Descriipcion"
+                label="Informacion breve sobre la instituciion"
+                variant="underlined"
+              ></v-textarea>
+              <v-file-input label="Cargar Logo de institucion" v-model="selectedImg" type="imagen" ></v-file-input>
                 <div class="mt-1">
                   <v-btn class="bg-success mr-3 text-white" elevation="0" >Enviar</v-btn>
                   

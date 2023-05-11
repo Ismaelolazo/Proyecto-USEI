@@ -19,7 +19,19 @@
             <h4 class="banner-subtitle mr-0 text-white font-weight-regular">
               Te presentamos un acercamiento a las instituciones que participan de la feria 
             </h4>
+            <br>
+            <v-btn
+                size="large"
+                to="/reginsti"
+                class="btn-custom-md d-sm-flex d-block"
+                variant="outlined"
+                color="white"
+                flat
+              ><NuxtLink to="/Pag1" target="_blank" class="text-decoration-none  text-white"></NuxtLink>
+                Registra tu institucion!
+              </v-btn>
           </div>
+          
         </v-col>
       </v-row>
 
