@@ -16,7 +16,7 @@ const show3 = ref(true);
         <v-row justify="center">
           <v-col cols="12" sm="10" md="9" lg="7">
             <div class="text-center">
-              <h2 class="ui-title font-weight-bold">Formulario de registro</h2>
+              <h2 class="ui-title font-weight-bold">Datos complementarios</h2>
               <p class="text-muted">
                 Datos para poder compartir tu pagina
               </p>
@@ -36,15 +36,9 @@ const show3 = ref(true);
             <v-card class="card-shadow">
               <v-card-text>
                 <v-text-field
-                v-model="Nombre_Institucion"
+                v-model="Link"
                 color="primary"
-                label="Nombre institucion"
-                variant="underlined"
-              ></v-text-field>
-              <v-text-field
-                v-model="first"
-                color="primary"
-                label="Lema"
+                label="Link-Pagina de institucion"
                 variant="underlined"
               ></v-text-field>
 

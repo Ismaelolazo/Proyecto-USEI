@@ -26,22 +26,44 @@ const headerMenu = [
 const feature1 =[
   {
     title: "Buenos Horarios",
-    icon: "mdi mdi-star",
+    icon: "mdi mdi-clock",
     desc: "Invierte en nuevos proyectos",
   },
   {
-    title: "Maestros",
+    title: "Amigable",
     icon: "mdi mdi-check-circle",
+    desc: "Desfruta de buen ambiente laboral",
+  },
+  {
+    title: "Buenas oportunidades",
+    icon: "mdi mdi-star",
+    desc: "Vive la experiencia de ser independiente",
+  },
+  {
+    title: "Maestros",
+    icon: "mdi mdi-glasses",
     desc: "Aprende sobre el campo laboral de primera mano",
   },
+];
+const featureregis =[
   {
     title: "Buenos Horarios",
-    icon: "mdi mdi-star",
+    icon: "mdi mdi-clock",
     desc: "Invierte en nuevos proyectos",
   },
   {
-    title: "Maestros",
+    title: "Amigable",
     icon: "mdi mdi-check-circle",
+    desc: "Desfruta de buen ambiente laboral",
+  },
+  {
+    title: "Buenas oportunidades",
+    icon: "mdi mdi-star",
+    desc: "Vive la experiencia de ser independiente",
+  },
+  {
+    title: "Maestros",
+    icon: "mdi mdi-glasses",
     desc: "Aprende sobre el campo laboral de primera mano",
   },
 ];
@@ -81,6 +103,30 @@ const feature2 =[
     img: "img4.jpg",
   },
 ];
+/*--Feature 2--*/
+const feature21 =[
+  {
+    title: "Make your website in no-time with us.",
+    img: "img1.jpg",
+  },
+  {
+    title: "Make your website in no-time with us.",
+    img: "img2.jpg",
+  },
+  {
+    title: "Make your website in no-time with us.",
+    img: "img3.jpg",
+  },
+  {
+    title: "Make your website in no-time with us.",
+    img: "img4.jpg",
+  },
+];
+
+
+
+
+
 
 /*--Portfolio--*/
 const portfolio =[
@@ -309,4 +355,4 @@ const Blog =[
   },
 ];
 
-export { headerMenu,feature1,feature2,portfolio,pricePlan,team,Testimonials,Blog};
+export { headerMenu,feature1,feature2,feature21,featureregis,portfolio,pricePlan,team,Testimonials,Blog};

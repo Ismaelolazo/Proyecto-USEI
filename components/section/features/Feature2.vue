@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from "vue";
-import {feature2} from '@/data/CustomComponents';
+import {feature21} from '@/data/CustomComponents';
 </script>
 <template>
   <div>
@@ -33,7 +33,7 @@ import {feature2} from '@/data/CustomComponents';
             cols="12"
             md="6"
             class="mb-3"
-            v-for="card in feature2"
+            v-for="card in feature21"
             :key="card.title"
           >
             <v-card elevation="0">

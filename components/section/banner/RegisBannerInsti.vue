@@ -1,5 +1,5 @@
 <template>
-  <div class="banner-wrapper bg-light-blue">
+  <div class="banner-wrapper bg-blue">
     <v-container>
       <!-- -----------------------------------------------
             Start Banner
@@ -16,7 +16,16 @@
             </h4>
           </div>
         </v-col>
-       
+        <v-btn
+                size="large"
+                to="/Pag1"
+                class="btn-custom-md d-sm-flex d-block"
+                variant="outlined"
+                color="white"
+                flat
+              >
+                Pagina de ejemplo
+              </v-btn>
       </v-row>
 
       <!-- -----------------------------------------------
