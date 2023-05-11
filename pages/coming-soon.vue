@@ -1,3 +1,4 @@
+<!-------Instituciones-------->
 <script setup lang="ts">
 import { ref } from 'vue';
 import UiComponents from '@/components/ui-components/AllComponents.vue';

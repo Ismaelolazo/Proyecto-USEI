@@ -1,7 +1,7 @@
 # Proyecto-USEI
-Ismael Rivera Cronograma
-Joaquin Mancilla Instituciones
-Andy Calle Contactos
+Ismael Rivera 
+Joaquin Mancilla 
+Andy Calle 
 
 Listado NPM:
 npm install

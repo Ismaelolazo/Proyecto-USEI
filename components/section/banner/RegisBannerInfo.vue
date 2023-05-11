@@ -30,9 +30,7 @@
                 size="large"
                 flat
               >
-                 
                   Informaciones
-                
               </v-btn>
               <v-btn
                 size="large"

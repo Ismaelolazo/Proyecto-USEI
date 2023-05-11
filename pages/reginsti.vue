@@ -1,3 +1,4 @@
+<!-------Registro instituciones-------->
 <script setup lang="ts">
 import { ref } from 'vue';
 import RegisBannerInsti from '@/components/section/banner/RegisBannerInsti.vue';

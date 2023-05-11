@@ -1,3 +1,4 @@
+<!-------Pagina ejemplo-------->
 <script setup lang="ts">
 import { ref } from 'vue';
 import InstiBanner from '@/components/section/banner/InstiBanner.vue';

@@ -31,7 +31,7 @@
                 variant="outlined"
                 color="white"
                 flat
-              ><NuxtLink to="/abm" target="_blank" class="text-decoration-none  text-white"></NuxtLink>
+              ><NuxtLink to="/regisE" target="_blank" class="text-decoration-none  text-white"></NuxtLink>
                 Registrarse
               </v-btn>
             </div>
