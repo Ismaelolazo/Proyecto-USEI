@@ -1,16 +1,10 @@
-<!-- Heading of Template -->
-<h1>
-  <a href="https://nextkit-nuxtjs-free-uikit.vercel.app/">Next Kit - Nuxt js based Free UI Kit</a>
-</h1>
 
 <!-- Main image of Template -->
-<a target="_blank" href="https://nextkit-nuxtjs-free-uikit.vercel.app/">
-  <img src="https://www.wrappixel.com/wp-content/uploads/edd/2021/09/nuxtjs-free-ui-kit.jpg" />
-</a>
+"https://nextkit-nuxtjs-free-uikit.vercel.app/"
+  
 
 Next Kit Vuejs is Free NuxtJs Vuetify Website Template. It allows you to create stunning websites, landing pages, coming soon pages, homepages and more. It comes with ready to use UI Blocks & Elements to help level up the design and aesthetics of your project. Next Kit is built on Vuetify framework, which is a responsive Vuejs Framework.
 
-## What do I get bundled with Free Version?
 
 The free version of NextKit Nuxtjs UI Kit Lite provides you with a library consisting of:
 
@@ -43,56 +37,7 @@ $ npm run start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
-## Special Directories
-
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
-
-### `assets`
-
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
 
 <!-- Resources of Template -->
 <h2>Resources</h2>
@@ -109,174 +54,7 @@ More information about the usage of this directory in [the documentation](https:
 </li>
 </ul>
 
-<!-- Free and Premium Templates -->
-<h2>Free and Premium Templates</h2>
-<!-- Ui Kits  -->
-<table>
-  <thead>
-<tr>
-<th>Wrapkit Bootstrap</th>
-<th>Nextkit – Nextjs Free UI Kit</th>
-<th>WrapKit React Lite UI Kit</th>
-</tr>
-</thead>
-  <tbody>
-     <tr>
-      <td>
-        <a href="https://www.wrappixel.com/templates/wrapkit/" rel="nofollow" width="150px">
-          <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/06/wrapkit-complete-ui-kit-y-20.jpg" alt="Wrapkit Bootstrap" style="max-width:150px;">
-        </a>
-      </td> 
-      <td>
-        <a href="https://www.wrappixel.com/templates/nextkit-nextjs-free-uikit/" rel="nofollow" width="150px">
-          <img src="https://www.wrappixel.com/wp-content/uploads/edd/2021/09/nextkit-nextjs-free-uikit.jpg" alt="Nextkit – Nextjs Free UI Kit" style="max-width:150px;">
-        </a>
-      </td> 
-      <td>
-        <a href="https://www.wrappixel.com/templates/wrapkit-react-lite/" rel="nofollow" width="150px">
-          <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/wrapkit-react-lite-y.jpg" alt="WrapKit React Lite UI Kit" style="max-width:150px;">
-        </a>
-      </td>
-    </tr>
-  </tbody>
-</table>
-<!-- bootstrap premium dashboards -->
-<table>
-<thead>
-<tr>
-<th>MaterialPro Bootstrap Admin</th>
-<th>Ample Bootstrap Admin</th>
-<th>Monster Bootstrap Admin</th>
-<th>AdminPro Bootstrap Theme</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-  <a href="https://www.wrappixel.com/templates/materialpro/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/materialpro-bootstrap-admin-y.jpg" alt="Material pro Bootstrap" style="max-width:150px;">
-  </a>
-</td>
-<td>
-  <a href="https://www.wrappixel.com/templates/ampleadmin/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/ample-admin-bootstrap-y.jpg" alt="Ample Bootstrap Admin" style="max-width:150px;">
-  </a>
-</td>
-<td>
-  <a href="https://www.wrappixel.com/templates/monsteradmin/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/monster-bootstrap-admin-y.jpg" alt="Monster Bootstrap Admin" style="max-width:150px;">
-  </a>
-</td>
-  <td>
-  <a href="https://www.wrappixel.com/templates/adminpro/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/adminpro-bootstrap-admin-template-y.jpg" alt="AdminPro Bootstrap Theme" style="max-width:150px;">
-  </a>
-</td>
-</tr>
-</tbody>
-</table>
 
-<!-- angular premium dashboards -->
-<table>
-<thead>
-<tr>
-<th>MaterialPro Angular Admin</th>
-<th>Ample Admin Angular</th>
-<th>Monster Angular Admin</th>
-<th>AdminPro Angular Admin</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-  <a href="https://www.wrappixel.com/templates/materialpro-angular-dashboard/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/materialpro-angular-admin-y.jpg" alt="MaterialPro Angular 11 Admin" style="max-width:150px;">
-  </a>
-</td>
-<td>
-  <a href="https://www.wrappixel.com/templates/ample-admin-angular/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/ample-admin-angular-y.jpg" alt="Ample Angular Admin" style="max-width:150px;">
-  </a>
-</td>
-<td>
-  <a href="https://www.wrappixel.com/templates/monster-angular-dashboard/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/monster-angular-admin-y.jpg" alt="Monster Angular Admin" style="max-width:150px;">
-  </a>
-</td>
-  <td>
-  <a href="https://www.wrappixel.com/templates/adminpro-angular-dashboard/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/adminpro-angular-dashboard-y.jpg" alt="AdminPro Angular Theme" style="max-width:150px;">
-  </a>
-</td>
-</tr>
-</tbody>
-</table>
-
-<!-- react premium dashboards -->
-<table>
-<thead>
-<tr>
-<th>MaterialPro React Admin</th>
-<th>Ample React Admin</th>
-<th>Monster React Admin</th>
-<th>AdminPro React Admin</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-  <a href="https://www.wrappixel.com/templates/materialpro-react-redux-admin/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/materialpro-react-admin-y.jpg" alt="MaterialPro React Redux Admin" style="max-width:150px;">
-  </a>
-</td>
-<td>
-  <a href="https://www.wrappixel.com/templates/ample-react-dashboard/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/09/ample-react-admin-template-y.png" alt="Ample React Admin" style="max-width:150px;">
-  </a>
-</td>
-<td>
-  <a href="https://www.wrappixel.com/templates/monster-react-admin/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/06/monster-react-admin-template-y-20.jpg" alt="Monster React Admin" style="max-width:150px;">
-  </a>
-</td>
-  <td>
-  <a href="https://www.wrappixel.com/templates/adminpro-react-redux-admin/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/adminpro-react-dashboard-y.jpg" alt="AdminPro React Theme" style="max-width:150px;">
-  </a>
-</td>
-</tr>
-</tbody>
-</table>
-
-<!-- vuejs premium dashboards -->
-<table>
-<thead>
-<tr>
-<th>MaterialPro Vuetify Admin</th>
-<th>Xtreme Vuesax Pro</th>
-<th>AdminPro Vuetify Dashboard</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-  <a href="https://www.wrappixel.com/templates/materialpro-vuetify-admin/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/05/materialpro-vuejs-dashboard-template-20.jpg" alt="MaterialPro Vuetify Admin" style="max-width:150px;">
-  </a>
-</td>
-<td>
-  <a href="https://www.wrappixel.com/templates/xtreme-vuesax-admin-pro/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/xtreme-vuesax-admin-y.jpg" alt="Xtreme Vuesax Admin" style="max-width:150px;">
-  </a>
-</td>
-<td>
-  <a href="https://www.wrappixel.com/templates/adminpro-vuetify-dashboard/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/10/adminpro-vuetify-dasboard-template-y.jpg" alt="AdminPro Vuetify Dashboard" style="max-width:150px;">
-  </a>
-</td>
-</tr>
-</tbody>
-</table>
 
 <!-- Licensing of Template -->
 <h2>Licensing</h2>
