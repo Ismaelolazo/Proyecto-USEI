@@ -1,7 +1,6 @@
 # Proyecto-USEI
 Ismael Rivera 
 Joaquin Mancilla 
-Andy Calle 
 
 Listado NPM:
 npm install
