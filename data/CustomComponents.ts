@@ -26,7 +26,7 @@ const headerMenu = [
 const feature1 =[
   {
     title: "Buenos Horarios",
-    icon: "mdi mdi-clock",
+    icon: "mdi mdi-glasses",
     desc: "Invierte en nuevos proyectos",
   },
   {

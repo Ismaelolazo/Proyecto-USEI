@@ -16,9 +16,9 @@ const show3 = ref(true);
         <v-row justify="center">
           <v-col cols="12" sm="10" md="9" lg="7">
             <div class="text-center">
-              <h2 class="ui-title font-weight-bold">Formulario de inscripcion</h2>
+              <h2 class="ui-title font-weight-bold">Formulario de inscripción</h2>
               <p class="text-muted">
-                Datos para poder compartir el link de la reunion contigo
+                Datos para poder compartir el link de la reunión contigo
               </p>
             </div>
           </v-col>
@@ -47,7 +47,13 @@ const show3 = ref(true);
                 label="Apellido"
                 variant="underlined"
               ></v-text-field>
-
+              <v-text-field
+                v-model="last"
+                color="primary"
+                type="carrera"
+                label="Carrera"
+                variant="underlined"
+              ></v-text-field>
               <v-text-field
                 v-model="last"
                 color="primary"
@@ -65,7 +71,7 @@ const show3 = ref(true);
                 <div class="mt-1">
                   <v-btn class="bg-success mr-3 text-white" elevation="0" >Enviar</v-btn>
                   
-                  <v-btn class="bg-dark" elevation="0" dark>Cancelar</v-btn>
+                  <v-btn to="/404" class="bg-dark" elevation="0" dark>Cancelar</v-btn>
                 </div>
               </v-card-text>
             </v-card>

@@ -26,7 +26,7 @@
               </v-btn>
               <v-btn
                 size="large"
-                to="/abm"
+                to="/regisE"
                 class="btn-custom-md d-sm-flex d-block"
                 variant="outlined"
                 color="white"

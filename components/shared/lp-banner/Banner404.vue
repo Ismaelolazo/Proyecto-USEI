@@ -17,12 +17,11 @@
               Opps, 404 - Error
             </h1>
             <h4 class="banner-subtitle mr-0 text-white font-weight-regular">
-              The page you are looking for is not available please go back to
-              homepage
+              La pagina a la que quieres ingresar no esta disponible, vuelve mas tarde
             </h4>
             <div class="mt-16 pt-2">
               <v-btn large to="/" color="error" elevation="0">
-                Back to Homepage
+                Al inicio
               </v-btn>
             </div>
           </div>

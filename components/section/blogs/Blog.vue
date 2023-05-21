@@ -12,9 +12,9 @@ import { Blog } from "@/data/CustomComponents";
         <v-row justify="center">
           <v-col cols="12" sm="10" md="9" lg="7">
             <div class="text-center">
-              <h2 class="section-title font-weight-medium">Proximas presentaciones</h2>
+              <h2 class="section-title font-weight-medium">Próximas presentaciones</h2>
               <p class="text-muted">
-                Estas son las proximas charlas que no debes perderte
+                Estas son las próximas charlas que no debes perderte
               </p>
             </div>
           </v-col>
@@ -29,7 +29,7 @@ import { Blog } from "@/data/CustomComponents";
         <v-row class="mt-9" justify="center">
           <v-col cols="12" md="4" sm="6" v-for="card in Blog  " :key="card.title">
             <v-card elevation="0" class="blog-card overflow-hidden mb-8">
-              <NuxtLink to="/cronograma">
+              <NuxtLink to="/basic-components">
               <a href="#" class="text-decoration-none">
                 
                 <div class="position-relative mb-6">
